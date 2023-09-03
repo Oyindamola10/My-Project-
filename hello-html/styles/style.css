@@ -1,0 +1,67 @@
+p{
+    color: red;
+}
+h2{
+    color: pink;
+    font-size: 40px;
+    background-color: black;
+}
+#title{
+    color: green;
+    background-color: yellow;
+}
+.item{
+    background-color: pink;
+    font-size: 40px;
+    color: green;
+}
+#beans{
+    color: red;
+    background-color: black;
+    font-size: 23px;
+}
+.pro{
+    border: 2px solid black;
+}
+h1{
+    color: red;
+    font-size: 14px;
+    background-color: black;
+    padding: 18px;
+    border: 2px solid white;
+}
+.para{
+    color: blue;
+    font-size: 28px;
+    font-weight: 800;
+    background-color: gray;
+}
+#special{
+    border: 2px solid green;
+    padding: 14px;
+    font-size: 68px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    background-color: #23263A;
+    height:200px;
+    width: 200px;
+    margin: 10px;
+    border:6px solid #23263A ;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px;
+}
